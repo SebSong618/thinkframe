@@ -1,0 +1,87 @@
+ERROR - 2021-07-11 19:44:06 --> Table 'thinkframe_1_5.scopes' doesn't exist
+CRITICAL - 2021-07-11 19:44:06 --> Table 'thinkframe_1_5.scopes' doesn't exist
+#0 E:\Projects\htdocs\thinkframe\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 E:\Projects\htdocs\thinkframe\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\Projects\htdocs\thinkframe\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\Projects\htdocs\thinkframe\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(2459): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(2510): App\Controllers\Getdatainjson->getScopeBySlug('gender')
+#6 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->hyps_frontend('gender')
+#7 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#8 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-07-11 19:44:52 --> Table 'thinkframe_1_5.scopes' doesn't exist
+CRITICAL - 2021-07-11 19:44:52 --> Table 'thinkframe_1_5.scopes' doesn't exist
+#0 E:\Projects\htdocs\thinkframe\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 E:\Projects\htdocs\thinkframe\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\Projects\htdocs\thinkframe\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\Projects\htdocs\thinkframe\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(2459): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(2510): App\Controllers\Getdatainjson->getScopeBySlug('gender')
+#6 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->hyps_frontend('gender')
+#7 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#8 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-07-11 19:44:55 --> Table 'thinkframe_1_5.scopes' doesn't exist
+CRITICAL - 2021-07-11 19:44:55 --> Table 'thinkframe_1_5.scopes' doesn't exist
+#0 E:\Projects\htdocs\thinkframe\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 E:\Projects\htdocs\thinkframe\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\Projects\htdocs\thinkframe\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\Projects\htdocs\thinkframe\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(2459): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(2510): App\Controllers\Getdatainjson->getScopeBySlug('gender')
+#6 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->hyps_frontend('gender')
+#7 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#8 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-07-11 19:52:39 --> Table 'thinkframe_1_5.combo_advice' doesn't exist
+CRITICAL - 2021-07-11 19:52:39 --> Table 'thinkframe_1_5.combo_advice' doesn't exist
+#0 E:\Projects\htdocs\thinkframe\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *, `advi...')
+#1 E:\Projects\htdocs\thinkframe\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `advi...')
+#2 E:\Projects\htdocs\thinkframe\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `advi...')
+#3 E:\Projects\htdocs\thinkframe\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *, `advi...', Array, false)
+#4 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(1796): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->advices_frontend('gender')
+#6 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#7 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-07-11 19:52:44 --> Table 'thinkframe_1_5.combo_advice' doesn't exist
+CRITICAL - 2021-07-11 19:52:44 --> Table 'thinkframe_1_5.combo_advice' doesn't exist
+#0 E:\Projects\htdocs\thinkframe\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *, `advi...')
+#1 E:\Projects\htdocs\thinkframe\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `advi...')
+#2 E:\Projects\htdocs\thinkframe\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `advi...')
+#3 E:\Projects\htdocs\thinkframe\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *, `advi...', Array, false)
+#4 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(1796): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->advices_frontend('gender')
+#6 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#7 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-07-11 19:53:50 --> Table 'thinkframe_1_5.combos' doesn't exist
+CRITICAL - 2021-07-11 19:53:50 --> Table 'thinkframe_1_5.combos' doesn't exist
+#0 E:\Projects\htdocs\thinkframe\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *, `advi...')
+#1 E:\Projects\htdocs\thinkframe\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `advi...')
+#2 E:\Projects\htdocs\thinkframe\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `advi...')
+#3 E:\Projects\htdocs\thinkframe\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *, `advi...', Array, false)
+#4 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(1796): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->advices_frontend('gender')
+#6 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#7 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-07-11 19:54:18 --> Table 'thinkframe_1_5.advice_hyp' doesn't exist
+CRITICAL - 2021-07-11 19:54:18 --> Table 'thinkframe_1_5.advice_hyp' doesn't exist
+#0 E:\Projects\htdocs\thinkframe\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *, `advi...')
+#1 E:\Projects\htdocs\thinkframe\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `advi...')
+#2 E:\Projects\htdocs\thinkframe\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `advi...')
+#3 E:\Projects\htdocs\thinkframe\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *, `advi...', Array, false)
+#4 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(1857): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->advices_frontend('gender')
+#6 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#7 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}

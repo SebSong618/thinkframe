@@ -1,0 +1,8 @@
+CRITICAL - 2021-07-18 21:11:10 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'E:\\Projects\\htd...', 1127, Array)
+#1 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(1127): json_decode(Array, true)
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->set_zeros_on_blanks()
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#4 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}

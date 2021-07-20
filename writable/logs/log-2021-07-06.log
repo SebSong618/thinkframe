@@ -1,0 +1,12 @@
+ERROR - 2021-07-06 19:26:02 --> Error connecting to the database: php_network_getaddresses: getaddrinfo failed: No such host is known. 
+CRITICAL - 2021-07-06 19:26:02 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo failed: No such host is known. 
+#0 E:\Projects\htdocs\thinkframe\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\Projects\htdocs\thinkframe\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(2428): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(2479): App\Controllers\Getdatainjson->getScopeBySlug('gender')
+#4 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->hyps_frontend('gender')
+#5 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#6 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}

@@ -1,0 +1,112 @@
+ERROR - 2021-07-04 07:28:48 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2021-07-04 07:28:48 --> Duplicate entry '0' for key 'PRIMARY'
+#0 E:\Projects\htdocs\thinkframe\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `co...')
+#1 E:\Projects\htdocs\thinkframe\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 E:\Projects\htdocs\thinkframe\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 E:\Projects\htdocs\thinkframe\system\Database\BaseBuilder.php(2120): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(1118): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#5 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->add_combo()
+#6 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#7 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-07-04 07:35:29 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2021-07-04 07:35:29 --> Duplicate entry '0' for key 'PRIMARY'
+#0 E:\Projects\htdocs\thinkframe\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `co...')
+#1 E:\Projects\htdocs\thinkframe\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 E:\Projects\htdocs\thinkframe\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 E:\Projects\htdocs\thinkframe\system\Database\BaseBuilder.php(2120): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(1118): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#5 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->add_combo()
+#6 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#7 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-07-04 07:39:18 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2021-07-04 07:39:18 --> Duplicate entry '0' for key 'PRIMARY'
+#0 E:\Projects\htdocs\thinkframe\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `co...')
+#1 E:\Projects\htdocs\thinkframe\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 E:\Projects\htdocs\thinkframe\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 E:\Projects\htdocs\thinkframe\system\Database\BaseBuilder.php(2120): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(1118): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#5 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->add_combo()
+#6 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#7 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-07-04 19:03:37 --> insertBatch() called with no data
+#0 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(890): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->add_hyp()
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-07-04 19:17:25 --> Duplicate entry '4588' for key 'PRIMARY'
+CRITICAL - 2021-07-04 19:17:25 --> Duplicate entry '4588' for key 'PRIMARY'
+#0 E:\Projects\htdocs\thinkframe\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ad...')
+#1 E:\Projects\htdocs\thinkframe\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ad...')
+#2 E:\Projects\htdocs\thinkframe\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ad...')
+#3 E:\Projects\htdocs\thinkframe\system\Database\BaseBuilder.php(2120): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ad...', Array, false)
+#4 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(932): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#5 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->add_hyp_advice()
+#6 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#7 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-07-04 19:19:36 --> Duplicate entry '4588' for key 'PRIMARY'
+CRITICAL - 2021-07-04 19:19:36 --> Duplicate entry '4588' for key 'PRIMARY'
+#0 E:\Projects\htdocs\thinkframe\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ad...')
+#1 E:\Projects\htdocs\thinkframe\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ad...')
+#2 E:\Projects\htdocs\thinkframe\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ad...')
+#3 E:\Projects\htdocs\thinkframe\system\Database\BaseBuilder.php(2120): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ad...', Array, false)
+#4 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(932): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#5 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->add_hyp_advice()
+#6 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#7 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-07-04 19:23:07 --> Undefined variable: node
+#0 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(924): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projects\\htd...', 924, Array)
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->add_hyp_advice()
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-04 20:23:45 --> insertBatch() called with no data
+#0 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(890): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->add_hyp()
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-07-04 23:24:53 --> Duplicate entry '29' for key 'PRIMARY'
+CRITICAL - 2021-07-04 23:24:53 --> Duplicate entry '29' for key 'PRIMARY'
+#0 E:\Projects\htdocs\thinkframe\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `co...')
+#1 E:\Projects\htdocs\thinkframe\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 E:\Projects\htdocs\thinkframe\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 E:\Projects\htdocs\thinkframe\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(1140): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->add_combo()
+#6 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#7 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-07-04 23:25:06 --> Undefined index: combo_id
+#0 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(1132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projects\\htd...', 1132, Array)
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->add_combo()
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-07-04 23:25:18 --> Duplicate entry '29' for key 'PRIMARY'
+CRITICAL - 2021-07-04 23:25:18 --> Duplicate entry '29' for key 'PRIMARY'
+#0 E:\Projects\htdocs\thinkframe\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `co...')
+#1 E:\Projects\htdocs\thinkframe\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 E:\Projects\htdocs\thinkframe\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 E:\Projects\htdocs\thinkframe\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(1140): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->add_combo()
+#6 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#7 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}

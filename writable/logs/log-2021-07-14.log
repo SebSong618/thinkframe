@@ -1,0 +1,321 @@
+CRITICAL - 2021-07-14 00:49:05 --> Undefined index: hyp_id
+#0 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(821): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projects\\htd...', 821, Array)
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->update_label_m_100()
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-14 01:14:08 --> Undefined index: hyp_id
+#0 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(1001): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projects\\htd...', 1001, Array)
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->update_strength()
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-14 08:59:29 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 E:\Projects\htdocs\thinkframe\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/c...')
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/c...')
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-14 08:59:29 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 E:\Projects\htdocs\thinkframe\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/c...')
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/c...')
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-14 08:59:40 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 E:\Projects\htdocs\thinkframe\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/c...')
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/c...')
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-14 08:59:40 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 E:\Projects\htdocs\thinkframe\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/c...')
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/c...')
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-14 09:00:28 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 E:\Projects\htdocs\thinkframe\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/c...')
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/c...')
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-14 09:00:28 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 E:\Projects\htdocs\thinkframe\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/c...')
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/c...')
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-14 09:00:46 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 E:\Projects\htdocs\thinkframe\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/c...')
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/c...')
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-14 09:00:46 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 E:\Projects\htdocs\thinkframe\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/c...')
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/c...')
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-14 09:00:50 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 E:\Projects\htdocs\thinkframe\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/c...')
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/c...')
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-14 09:00:50 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 E:\Projects\htdocs\thinkframe\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/c...')
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/c...')
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-14 09:01:05 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 E:\Projects\htdocs\thinkframe\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/c...')
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/c...')
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-14 09:01:05 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 E:\Projects\htdocs\thinkframe\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/c...')
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/c...')
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-14 09:01:09 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 E:\Projects\htdocs\thinkframe\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/c...')
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/c...')
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-14 09:01:09 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 E:\Projects\htdocs\thinkframe\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/c...')
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/c...')
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-14 09:01:26 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 E:\Projects\htdocs\thinkframe\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/c...')
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/c...')
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-14 09:01:26 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 E:\Projects\htdocs\thinkframe\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/c...')
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/c...')
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-14 09:01:40 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 E:\Projects\htdocs\thinkframe\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/c...')
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/c...')
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-14 09:01:40 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 E:\Projects\htdocs\thinkframe\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/c...')
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/c...')
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-14 09:02:03 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 E:\Projects\htdocs\thinkframe\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/c...')
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/c...')
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-14 09:02:03 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 E:\Projects\htdocs\thinkframe\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/c...')
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/c...')
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-14 09:02:21 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 E:\Projects\htdocs\thinkframe\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/c...')
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/c...')
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-14 09:02:21 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 E:\Projects\htdocs\thinkframe\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/c...')
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/c...')
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-14 09:04:12 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 E:\Projects\htdocs\thinkframe\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/c...')
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/c...')
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-14 09:04:12 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 E:\Projects\htdocs\thinkframe\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/c...')
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/c...')
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-14 09:04:19 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 E:\Projects\htdocs\thinkframe\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/g...')
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/g...')
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-14 09:04:42 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 E:\Projects\htdocs\thinkframe\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/g...')
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/g...')
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-14 09:05:51 --> syntax error, unexpected 'private' (T_PRIVATE)
+#0 E:\Projects\htdocs\thinkframe\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/g...')
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/g...')
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-14 09:06:44 --> syntax error, unexpected '?>', expecting function (T_FUNCTION) or const (T_CONST)
+#0 E:\Projects\htdocs\thinkframe\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/g...')
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/g...')
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-14 09:07:15 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 E:\Projects\htdocs\thinkframe\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/g...')
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/g...')
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-14 09:09:37 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 E:\Projects\htdocs\thinkframe\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/g...')
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/g...')
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-14 09:16:40 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 E:\Projects\htdocs\thinkframe\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/g...')
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/g...')
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-14 09:17:06 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 E:\Projects\htdocs\thinkframe\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/g...')
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/g...')
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-14 09:17:31 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 E:\Projects\htdocs\thinkframe\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/g...')
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/g...')
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-14 09:17:41 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 E:\Projects\htdocs\thinkframe\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/a...')
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/a...')
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-14 09:18:04 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 E:\Projects\htdocs\thinkframe\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/g...')
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/g...')
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-07-14 18:13:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SEPARATOR "&&&") AS hyp_with_point
+FROM `options`
+LEFT JOIN `option_hyp` AS `oh`' at line 1
+CRITICAL - 2021-07-14 18:13:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SEPARATOR "&&&") AS hyp_with_point
+FROM `options`
+LEFT JOIN `option_hyp` AS `oh`' at line 1
+#0 E:\Projects\htdocs\thinkframe\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `q`.*, `...')
+#1 E:\Projects\htdocs\thinkframe\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `q`.*, `...')
+#2 E:\Projects\htdocs\thinkframe\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `q`.*, `...')
+#3 E:\Projects\htdocs\thinkframe\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `q`.*, `...', Array, false)
+#4 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(208): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->allquestions()
+#6 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#7 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-07-14 18:14:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SEPARATOR "&&&") AS hyp_with_point
+FROM `options`
+LEFT JOIN `option_hyp` AS `oh`' at line 1
+CRITICAL - 2021-07-14 18:14:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SEPARATOR "&&&") AS hyp_with_point
+FROM `options`
+LEFT JOIN `option_hyp` AS `oh`' at line 1
+#0 E:\Projects\htdocs\thinkframe\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `q`.*, `...')
+#1 E:\Projects\htdocs\thinkframe\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `q`.*, `...')
+#2 E:\Projects\htdocs\thinkframe\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `q`.*, `...')
+#3 E:\Projects\htdocs\thinkframe\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `q`.*, `...', Array, false)
+#4 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(208): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->allquestions()
+#6 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#7 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-07-14 19:16:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SEPARATOR "&&&") AS hyp_with_point
+FROM `options`
+LEFT JOIN `option_hyp` AS `oh`' at line 1
+CRITICAL - 2021-07-14 19:16:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SEPARATOR "&&&") AS hyp_with_point
+FROM `options`
+LEFT JOIN `option_hyp` AS `oh`' at line 1
+#0 E:\Projects\htdocs\thinkframe\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `q`.*, `...')
+#1 E:\Projects\htdocs\thinkframe\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `q`.*, `...')
+#2 E:\Projects\htdocs\thinkframe\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `q`.*, `...')
+#3 E:\Projects\htdocs\thinkframe\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `q`.*, `...', Array, false)
+#4 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(208): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->allquestions()
+#6 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#7 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-07-14 23:22:11 --> Undefined index: label_m_100
+#0 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(488): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projects\\htd...', 488, Array)
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->allhyps()
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-14 23:22:17 --> Undefined index: label_m_100
+#0 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(488): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projects\\htd...', 488, Array)
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->allhyps()
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
