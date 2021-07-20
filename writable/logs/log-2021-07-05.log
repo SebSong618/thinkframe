@@ -1,0 +1,19 @@
+ERROR - 2021-07-05 01:20:33 --> Duplicate entry '31782' for key 'PRIMARY'
+CRITICAL - 2021-07-05 01:20:33 --> Duplicate entry '31782' for key 'PRIMARY'
+#0 E:\Projects\htdocs\thinkframe\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `po...')
+#1 E:\Projects\htdocs\thinkframe\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 E:\Projects\htdocs\thinkframe\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 E:\Projects\htdocs\thinkframe\system\Database\BaseBuilder.php(2120): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(991): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#5 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->set_zeros_on_blanks()
+#6 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#7 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-07-05 01:27:46 --> You must specify an index to match on for batch updates.
+#0 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(991): CodeIgniter\Database\BaseBuilder->updateBatch(Array)
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->set_zeros_on_blanks()
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}

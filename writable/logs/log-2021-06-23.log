@@ -1,0 +1,275 @@
+ERROR - 2021-06-23 14:54:00 --> Unknown column 'question_content' in 'field list'
+CRITICAL - 2021-06-23 14:54:00 --> Unknown column 'question_content' in 'field list'
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\MySQLi\Connection.php(329): mysqli->query('REPLACE INTO `i...')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `i...')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `i...')
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseBuilder.php(2368): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `i...', Array, false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(30): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->save_input()
+#6 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#7 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-06-23 14:54:36 --> Operand should contain 1 column(s)
+CRITICAL - 2021-06-23 14:54:36 --> Operand should contain 1 column(s)
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\MySQLi\Connection.php(329): mysqli->query('REPLACE INTO `i...')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `i...')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `i...')
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseBuilder.php(2368): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `i...', Array, false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(30): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->save_input()
+#6 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#7 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-06-23 14:57:14 --> Operand should contain 1 column(s)
+CRITICAL - 2021-06-23 14:57:14 --> Operand should contain 1 column(s)
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\MySQLi\Connection.php(329): mysqli->query('REPLACE INTO `i...')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `i...')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `i...')
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseBuilder.php(2368): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `i...', Array, false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(30): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->save_input()
+#6 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#7 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-06-23 15:04:00 --> Operand should contain 1 column(s)
+CRITICAL - 2021-06-23 15:04:00 --> Operand should contain 1 column(s)
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\MySQLi\Connection.php(329): mysqli->query('REPLACE INTO `i...')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `i...')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `i...')
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseBuilder.php(2368): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `i...', Array, false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(30): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->save_input()
+#6 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#7 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-06-23 15:11:17 --> Unknown column 'jack_smith' in 'where clause'
+CRITICAL - 2021-06-23 15:11:17 --> Unknown column 'jack_smith' in 'where clause'
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT * FROM i...')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM i...')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM i...')
+#3 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(24): CodeIgniter\Database\BaseConnection->query('SELECT * FROM i...')
+#4 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->save_input()
+#5 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#6 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-06-23 15:12:21 --> Unknown column 'input.user1_name' in 'where clause'
+CRITICAL - 2021-06-23 15:12:21 --> Unknown column 'input.user1_name' in 'where clause'
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT * FROM i...')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM i...')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM i...')
+#3 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(24): CodeIgniter\Database\BaseConnection->query('SELECT * FROM i...')
+#4 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->save_input()
+#5 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#6 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-06-23 15:12:40 --> Unknown column 'jack_smith' in 'where clause'
+CRITICAL - 2021-06-23 15:12:40 --> Unknown column 'jack_smith' in 'where clause'
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT * FROM i...')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM i...')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM i...')
+#3 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(24): CodeIgniter\Database\BaseConnection->query('SELECT * FROM i...')
+#4 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->save_input()
+#5 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#6 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-23 00:13:39 --> syntax error, unexpected '$user_name' (T_VARIABLE), expecting ')'
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/h...')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/h...')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-23 00:13:40 --> syntax error, unexpected '$user_name' (T_VARIABLE), expecting ')'
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/c...')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/c...')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-23 00:13:40 --> syntax error, unexpected '$user_name' (T_VARIABLE), expecting ')'
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/a...')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/a...')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-06-23 15:14:06 --> Unknown column 'jack_smith' in 'where clause'
+CRITICAL - 2021-06-23 15:14:06 --> Unknown column 'jack_smith' in 'where clause'
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT * FROM i...')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM i...')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM i...')
+#3 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(24): CodeIgniter\Database\BaseConnection->query('SELECT * FROM i...')
+#4 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->save_input()
+#5 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#6 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-06-23 15:14:44 --> Operand should contain 1 column(s)
+CRITICAL - 2021-06-23 15:14:44 --> Operand should contain 1 column(s)
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\MySQLi\Connection.php(329): mysqli->query('REPLACE INTO `i...')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `i...')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `i...')
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseBuilder.php(2368): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `i...', Array, false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(35): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->save_input()
+#6 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#7 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-06-23 15:16:27 --> Operand should contain 1 column(s)
+CRITICAL - 2021-06-23 15:16:27 --> Operand should contain 1 column(s)
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\MySQLi\Connection.php(329): mysqli->query('UPDATE `input` ...')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `input` ...')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `input` ...')
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseBuilder.php(2482): CodeIgniter\Database\BaseConnection->query('UPDATE `input` ...', Array, false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(36): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->save_input()
+#6 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#7 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-23 15:34:03 --> Trying to get property 'input_id' of non-object
+#0 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\Projects\\htd...', 29, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->save_input()
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-23 15:34:22 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'E:\\Projects\\htd...', 27, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(27): count(Object(stdClass))
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->save_input()
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#4 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-23 15:41:47 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'E:\\Projects\\htd...', 41, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(41): json_decode(Array)
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->save_input()
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#4 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-23 01:03:59 --> Undefined property: stdClass::$user_name
+#0 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\Projects\\htd...', 65, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->input_history()
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-23 01:04:34 --> Undefined property: stdClass::$user_name
+#0 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\Projects\\htd...', 65, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->input_history()
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-23 01:04:35 --> Undefined property: stdClass::$user_name
+#0 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\Projects\\htd...', 65, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->input_history()
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-23 01:11:13 --> Undefined property: stdClass::$user_name
+#0 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\Projects\\htd...', 65, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->input_history()
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-23 01:12:09 --> Undefined property: stdClass::$user_name
+#0 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\Projects\\htd...', 65, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->input_history()
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-23 01:13:06 --> Undefined property: stdClass::$user_name
+#0 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\Projects\\htd...', 65, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->input_history()
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-23 01:13:09 --> Undefined property: stdClass::$user_name
+#0 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\Projects\\htd...', 65, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->input_history()
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-23 01:16:15 --> Undefined property: stdClass::$user_name
+#0 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\Projects\\htd...', 65, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->input_history()
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-23 19:53:33 --> There is no data to update.
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\BaseModel.php(1668): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\BaseModel.php(880): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\Model.php(718): CodeIgniter\BaseModel->update(Array, NULL)
+#3 E:\Projects\htdocs\thinkframe_beanstalk\app\Models\AuthModel.php(162): CodeIgniter\Model->update(Array)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\app\Libraries\AuthLibrary.php(795): App\Models\AuthModel->UpdateSelector(Array, 'ee17f0d4eda6')
+#5 E:\Projects\htdocs\thinkframe_beanstalk\app\Libraries\AuthLibrary.php(748): App\libraries\AuthLibrary->rememberMeReset('1', 'ee17f0d4eda6')
+#6 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Auth.php(57): App\libraries\AuthLibrary->checkCookie()
+#7 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Auth->login()
+#8 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-06-23 23:38:24 --> There is no data to update.
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\BaseModel.php(1668): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\BaseModel.php(880): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\Model.php(718): CodeIgniter\BaseModel->update(Array, NULL)
+#3 E:\Projects\htdocs\thinkframe_beanstalk\app\Models\AuthModel.php(162): CodeIgniter\Model->update(Array)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\app\Libraries\AuthLibrary.php(795): App\Models\AuthModel->UpdateSelector(Array, 'ee17f0d4eda6')
+#5 E:\Projects\htdocs\thinkframe_beanstalk\app\Libraries\AuthLibrary.php(748): App\libraries\AuthLibrary->rememberMeReset('1', 'ee17f0d4eda6')
+#6 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Auth.php(57): App\libraries\AuthLibrary->checkCookie()
+#7 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Auth->login()
+#8 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-06-23 23:38:28 --> There is no data to update.
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\BaseModel.php(1668): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\BaseModel.php(880): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\Model.php(718): CodeIgniter\BaseModel->update(Array, NULL)
+#3 E:\Projects\htdocs\thinkframe_beanstalk\app\Models\AuthModel.php(162): CodeIgniter\Model->update(Array)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\app\Libraries\AuthLibrary.php(795): App\Models\AuthModel->UpdateSelector(Array, 'ee17f0d4eda6')
+#5 E:\Projects\htdocs\thinkframe_beanstalk\app\Libraries\AuthLibrary.php(748): App\libraries\AuthLibrary->rememberMeReset('1', 'ee17f0d4eda6')
+#6 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Auth.php(57): App\libraries\AuthLibrary->checkCookie()
+#7 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Auth->login()
+#8 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-06-23 23:38:29 --> There is no data to update.
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\BaseModel.php(1668): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\BaseModel.php(880): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\Model.php(718): CodeIgniter\BaseModel->update(Array, NULL)
+#3 E:\Projects\htdocs\thinkframe_beanstalk\app\Models\AuthModel.php(162): CodeIgniter\Model->update(Array)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\app\Libraries\AuthLibrary.php(795): App\Models\AuthModel->UpdateSelector(Array, 'ee17f0d4eda6')
+#5 E:\Projects\htdocs\thinkframe_beanstalk\app\Libraries\AuthLibrary.php(748): App\libraries\AuthLibrary->rememberMeReset('1', 'ee17f0d4eda6')
+#6 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Auth.php(57): App\libraries\AuthLibrary->checkCookie()
+#7 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Auth->login()
+#8 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-06-23 23:44:35 --> Undefined index: combos
+#0 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(1390): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projects\\htd...', 1390, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->advices()
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}

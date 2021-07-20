@@ -1,0 +1,120 @@
+ERROR - 2021-07-01 03:02:23 --> Unknown column 'input_id' in 'field list'
+CRITICAL - 2021-07-01 03:02:23 --> Unknown column 'input_id' in 'field list'
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\MySQLi\Connection.php(329): mysqli->query('UPDATE `calc_re...')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `calc_re...')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `calc_re...')
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseBuilder.php(2482): CodeIgniter\Database\BaseConnection->query('UPDATE `calc_re...', Array, false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(87): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->save_hyp_result()
+#6 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#7 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-07-01 03:46:46 --> Trying to get property 'option_ids' of non-object
+#0 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(128): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\Projects\\htd...', 128, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->input_history()
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-01 03:51:42 --> Undefined property: stdClass::$user_name
+#0 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\Projects\\htd...', 111, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->save_combo_result()
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-01 03:55:57 --> Undefined property: stdClass::$combo_result
+#0 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(175): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\Projects\\htd...', 175, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->input_history()
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-01 03:56:01 --> Undefined property: stdClass::$combo_result
+#0 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(175): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\Projects\\htd...', 175, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->input_history()
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-01 03:56:06 --> Undefined property: stdClass::$combo_result
+#0 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(175): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\Projects\\htd...', 175, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->input_history()
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-01 03:56:25 --> Undefined property: stdClass::$combo_result
+#0 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(175): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\Projects\\htd...', 175, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->input_history()
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-01 03:57:01 --> Undefined property: stdClass::$combo_result
+#0 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(175): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\Projects\\htd...', 175, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->input_history()
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-01 03:57:04 --> Undefined property: stdClass::$combo_result
+#0 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(175): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\Projects\\htd...', 175, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->input_history()
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-01 04:06:45 --> Trying to get property 'option_ids' of non-object
+#0 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(173): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\Projects\\htd...', 173, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->input_history()
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-07-01 19:22:15 --> Error connecting to the database: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+CRITICAL - 2021-07-01 19:22:15 --> Unable to connect to the database.
+Main connection [MySQLi]: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Thinkframe.php(59): CodeIgniter\BaseModel->findAll()
+#5 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Thinkframe->hyps()
+#6 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Thinkframe))
+#7 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-07-01 19:22:23 --> Error connecting to the database: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+CRITICAL - 2021-07-01 19:22:23 --> Unable to connect to the database.
+Main connection [MySQLi]: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Thinkframe.php(59): CodeIgniter\BaseModel->findAll()
+#5 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Thinkframe->hyps()
+#6 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Thinkframe))
+#7 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-07-01 19:27:53 --> Error connecting to the database: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+CRITICAL - 2021-07-01 19:27:53 --> Unable to connect to the database.
+Main connection [MySQLi]: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Thinkframe.php(76): CodeIgniter\BaseModel->findAll()
+#5 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Thinkframe->combos()
+#6 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Thinkframe))
+#7 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}

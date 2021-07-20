@@ -1,0 +1,13 @@
+CRITICAL - 2021-06-12 01:11:11 --> Cannot call constructor
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(903): App\Controllers\Thinkframe->__construct()
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(429): CodeIgniter\CodeIgniter->createController()
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-12 01:14:03 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, string given, called in E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Thinkframe.php on line 24
+#0 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Thinkframe.php(24): CodeIgniter\HTTP\RedirectResponse->to('http://local.th...', 'refresh')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(903): App\Controllers\Thinkframe->__construct()
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(429): CodeIgniter\CodeIgniter->createController()
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}

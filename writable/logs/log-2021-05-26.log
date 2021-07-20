@@ -1,0 +1,77 @@
+CRITICAL - 2021-05-26 04:18:32 --> Undefined variable: heading
+#0 E:\Projects\htdocs\thinkframe\app\Views\users\users.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projects\\htd...', 9, Array)
+#1 E:\Projects\htdocs\thinkframe\system\View\View.php(230): include('E:\\Projects\\htd...')
+#2 E:\Projects\htdocs\thinkframe\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\Projects\htdocs\thinkframe\system\Common.php(1250): CodeIgniter\View\View->render('users/users', Array, true)
+#4 E:\Projects\htdocs\thinkframe\app\Controllers\Users.php(38): view('users/users')
+#5 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Users->list()
+#6 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-26 05:53:13 --> syntax error, unexpected '=', expecting ';'
+#0 E:\Projects\htdocs\thinkframe\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\Projects\htdocs\thinkframe\system\Common.php(1250): CodeIgniter\View\View->render('users/users', Array, true)
+#2 E:\Projects\htdocs\thinkframe\app\Controllers\Users.php(38): view('users/users')
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Users->list()
+#4 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-26 07:01:53 --> Invalid file: aside-bar.php
+#0 E:\Projects\htdocs\thinkframe\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('aside-bar.php')
+#1 E:\Projects\htdocs\thinkframe\system\View\View.php(487): CodeIgniter\View\View->render('aside-bar', NULL, true)
+#2 E:\Projects\htdocs\thinkframe\app\Views\users\users.php(39): CodeIgniter\View\View->include('aside-bar')
+#3 E:\Projects\htdocs\thinkframe\system\View\View.php(230): include('E:\\Projects\\htd...')
+#4 E:\Projects\htdocs\thinkframe\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 E:\Projects\htdocs\thinkframe\system\Common.php(1250): CodeIgniter\View\View->render('users/users', Array, true)
+#6 E:\Projects\htdocs\thinkframe\app\Controllers\Users.php(38): view('users/users')
+#7 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Users->list()
+#8 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#9 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-05-26 17:30:30 --> Invalid file: metronic/main.php
+#0 E:\Projects\htdocs\thinkframe\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('metronic/main.p...')
+#1 E:\Projects\htdocs\thinkframe\system\View\View.php(246): CodeIgniter\View\View->render('metronic/main', Array, true)
+#2 E:\Projects\htdocs\thinkframe\system\Common.php(1250): CodeIgniter\View\View->render('app/dashboard', Array, true)
+#3 E:\Projects\htdocs\thinkframe\app\Controllers\Dashboard.php(29): view('app/dashboard')
+#4 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Dashboard->index()
+#5 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-26 17:30:43 --> syntax error, unexpected '}', expecting ';'
+#0 E:\Projects\htdocs\thinkframe\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('/')
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('/')
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-26 17:30:52 --> syntax error, unexpected '}', expecting ';'
+#0 E:\Projects\htdocs\thinkframe\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('/')
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('/')
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-26 17:30:59 --> syntax error, unexpected '}', expecting ';'
+#0 E:\Projects\htdocs\thinkframe\system\Autoloader\Autoloader.php(282): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\Projects\\htd...')
+#1 E:\Projects\htdocs\thinkframe\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(888): class_exists('\\App\\Controller...', true)
+#5 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->startController()
+#6 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-26 17:31:42 --> Invalid file: metronic/template.php
+#0 E:\Projects\htdocs\thinkframe\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('metronic/templa...')
+#1 E:\Projects\htdocs\thinkframe\system\View\View.php(246): CodeIgniter\View\View->render('metronic/templa...', Array, true)
+#2 E:\Projects\htdocs\thinkframe\system\Common.php(1250): CodeIgniter\View\View->render('app/home', Array, true)
+#3 E:\Projects\htdocs\thinkframe\app\Controllers\Home.php(37): view('app/home')
+#4 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Home->index()
+#5 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}

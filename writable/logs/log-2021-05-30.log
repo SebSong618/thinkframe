@@ -1,0 +1,455 @@
+CRITICAL - 2021-05-30 17:25:52 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-30 17:30:44 --> Undefined property: App\Controllers\Getdatainjson::$db
+#0 E:\Projects\htdocs\thinkframe\app\Controllers\getdatainjson.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\Projects\\htd...', 11, Array)
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->questions()
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 17:37:48 --> Cannot call constructor
+#0 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(903): App\Controllers\Getdatainjson->__construct()
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(429): CodeIgniter\CodeIgniter->createController()
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-30 17:38:35 --> Cannot call constructor
+#0 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(903): App\Controllers\Getdatainjson->__construct()
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(429): CodeIgniter\CodeIgniter->createController()
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-30 17:38:51 --> Cannot call constructor
+#0 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(903): App\Controllers\Getdatainjson->__construct()
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(429): CodeIgniter\CodeIgniter->createController()
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-30 17:41:01 --> Cannot call constructor
+#0 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(903): App\Controllers\Getdatainjson->__construct()
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(429): CodeIgniter\CodeIgniter->createController()
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-30 17:42:00 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->questions()
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-30 17:43:31 --> Undefined property: App\Controllers\Getdatainjson::$output
+#0 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\Projects\\htd...', 24, Array)
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->questions()
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 17:43:46 --> Undefined property: App\Controllers\Getdatainjson::$output
+#0 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\Projects\\htd...', 24, Array)
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->questions()
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 17:46:04 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->questions()
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-30 17:46:35 --> syntax error, unexpected end of file
+#0 E:\Projects\htdocs\thinkframe\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/q...')
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/q...')
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 17:49:41 --> Undefined property: App\Controllers\Getdatainjson::$db
+#0 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\Projects\\htd...', 19, Array)
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->questions()
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 17:50:05 --> Undefined property: App\Controllers\Getdatainjson::$output
+#0 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\Projects\\htd...', 19, Array)
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->questions()
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 18:04:05 --> syntax error, unexpected '$db' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 E:\Projects\htdocs\thinkframe\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/q...')
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/q...')
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 18:04:21 --> Constant expression contains invalid operations
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-30 18:19:21 --> Trying to get property 'question_id' of non-object
+#0 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\Projects\\htd...', 36, Array)
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->getIdOfLastQuestion()
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 18:19:39 --> Undefined index: question_id
+#0 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projects\\htd...', 36, Array)
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->getIdOfLastQuestion()
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 18:19:46 --> Cannot use object of type stdClass as array
+#0 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->getIdOfLastQuestion()
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-30 18:38:32 --> Too few arguments to function App\Controllers\Getdatainjson::addQuestion(), 0 passed in E:\Projects\htdocs\thinkframe\system\CodeIgniter.php on line 931 and exactly 1 expected
+#0 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->addQuestion()
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-30 18:39:08 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-30 18:39:37 --> Too few arguments to function App\Controllers\Getdatainjson::addQuestion(), 0 passed in E:\Projects\htdocs\thinkframe\system\CodeIgniter.php on line 931 and exactly 1 expected
+#0 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->addQuestion()
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-30 18:39:43 --> Too few arguments to function App\Controllers\Getdatainjson::addQuestion(), 0 passed in E:\Projects\htdocs\thinkframe\system\CodeIgniter.php on line 931 and exactly 1 expected
+#0 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->addQuestion()
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-30 18:40:23 --> Too few arguments to function App\Controllers\Getdatainjson::addQuestion(), 0 passed in E:\Projects\htdocs\thinkframe\system\CodeIgniter.php on line 931 and exactly 1 expected
+#0 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->addQuestion()
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-30 18:41:28 --> Too few arguments to function App\Controllers\Getdatainjson::addQuestion(), 0 passed in E:\Projects\htdocs\thinkframe\system\CodeIgniter.php on line 931 and exactly 1 expected
+#0 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->addQuestion()
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-30 18:45:44 --> Too few arguments to function App\Controllers\Getdatainjson::addquestion(), 0 passed in E:\Projects\htdocs\thinkframe\system\CodeIgniter.php on line 931 and exactly 2 expected
+#0 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->addquestion()
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-30 18:52:13 --> Call to undefined method App\Controllers\Getdatainjson::post()
+#0 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->addquestion()
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-30 18:52:41 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::post()
+#0 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->addquestion()
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-30 18:52:50 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::post()
+#0 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->addquestion()
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-30 18:52:55 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::post()
+#0 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->addquestion()
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-30 18:54:22 --> syntax error, unexpected ';'
+#0 E:\Projects\htdocs\thinkframe\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/a...')
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/a...')
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 18:54:27 --> syntax error, unexpected ';'
+#0 E:\Projects\htdocs\thinkframe\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/g...')
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/g...')
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 18:55:53 --> syntax error, unexpected ';'
+#0 E:\Projects\htdocs\thinkframe\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/a...')
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/a...')
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 18:56:57 --> syntax error, unexpected ';'
+#0 E:\Projects\htdocs\thinkframe\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/g...')
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/g...')
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 18:57:07 --> syntax error, unexpected ';'
+#0 E:\Projects\htdocs\thinkframe\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/g...')
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/g...')
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 18:57:32 --> syntax error, unexpected ';'
+#0 E:\Projects\htdocs\thinkframe\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/g...')
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/g...')
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 18:57:44 --> syntax error, unexpected ';'
+#0 E:\Projects\htdocs\thinkframe\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/g...')
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/g...')
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 18:57:55 --> syntax error, unexpected ';'
+#0 E:\Projects\htdocs\thinkframe\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/g...')
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/g...')
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 19:08:22 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert()
+#0 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(57): App\Models\Model_question->addQuestion(Array)
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->addquestion()
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 19:08:39 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert()
+#0 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(57): App\Models\Model_question->addQuestion(Array)
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->addquestion()
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 19:13:25 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::insertID()
+#0 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(57): App\Models\Model_question->addQuestion(Array)
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->addquestion()
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-05-30 19:16:20 --> Duplicate entry '4' for key 'PRIMARY'
+CRITICAL - 2021-05-30 19:16:20 --> Duplicate entry '4' for key 'PRIMARY'
+#0 E:\Projects\htdocs\thinkframe\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `qu...')
+#1 E:\Projects\htdocs\thinkframe\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `qu...')
+#2 E:\Projects\htdocs\thinkframe\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `qu...')
+#3 E:\Projects\htdocs\thinkframe\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `qu...', Array, false)
+#4 E:\Projects\htdocs\thinkframe\app\Models\model_question.php(36): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(57): App\Models\Model_question->addQuestion(Array)
+#6 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->addquestion()
+#7 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#8 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-05-30 19:16:49 --> Duplicate entry '4' for key 'PRIMARY'
+CRITICAL - 2021-05-30 19:16:49 --> Duplicate entry '4' for key 'PRIMARY'
+#0 E:\Projects\htdocs\thinkframe\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `qu...')
+#1 E:\Projects\htdocs\thinkframe\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `qu...')
+#2 E:\Projects\htdocs\thinkframe\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `qu...')
+#3 E:\Projects\htdocs\thinkframe\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `qu...', Array, false)
+#4 E:\Projects\htdocs\thinkframe\app\Models\model_question.php(36): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(57): App\Models\Model_question->addQuestion(Array)
+#6 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->addquestion()
+#7 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#8 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-30 19:48:03 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::getID()
+#0 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(66): App\Models\Model_question->deleteQuestion('3')
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->deletequestion()
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 20:01:49 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::getID()
+#0 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(66): App\Models\Model_question->deleteQuestion('6')
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->deletequestion()
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 20:23:27 --> syntax error, unexpected '{', expecting ')'
+#0 E:\Projects\htdocs\thinkframe\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/g...')
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/g...')
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 20:24:06 --> syntax error, unexpected '{', expecting ')'
+#0 E:\Projects\htdocs\thinkframe\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/g...')
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/g...')
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 20:24:42 --> Cannot use object of type stdClass as array
+#0 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->getMaxIds()
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-05-30 20:42:28 --> Cannot add or update a child row: a foreign key constraint fails (`thinkframe`.`options`, CONSTRAINT `options_ibfk_1` FOREIGN KEY (`question_id`) REFERENCES `questions` (`question_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+CRITICAL - 2021-05-30 20:42:28 --> Cannot add or update a child row: a foreign key constraint fails (`thinkframe`.`options`, CONSTRAINT `options_ibfk_1` FOREIGN KEY (`question_id`) REFERENCES `questions` (`question_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+#0 E:\Projects\htdocs\thinkframe\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `op...')
+#1 E:\Projects\htdocs\thinkframe\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `op...')
+#2 E:\Projects\htdocs\thinkframe\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `op...')
+#3 E:\Projects\htdocs\thinkframe\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `op...', Array, false)
+#4 E:\Projects\htdocs\thinkframe\app\Models\model_option.php(38): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(97): App\Models\Model_option->addOption(Array)
+#6 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->addoption()
+#7 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#8 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-30 21:10:01 --> Call to undefined method App\Controllers\Getdatainjson::getIdOfLastQuestion()
+#0 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->deletequestion()
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-30 21:10:02 --> Call to undefined method App\Controllers\Getdatainjson::getIdOfLastQuestion()
+#0 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->deletequestion()
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-05-30 22:15:39 --> Duplicate entry '5' for key 'PRIMARY'
+CRITICAL - 2021-05-30 22:15:39 --> Duplicate entry '5' for key 'PRIMARY'
+#0 E:\Projects\htdocs\thinkframe\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `qu...')
+#1 E:\Projects\htdocs\thinkframe\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `qu...')
+#2 E:\Projects\htdocs\thinkframe\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `qu...')
+#3 E:\Projects\htdocs\thinkframe\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `qu...', Array, false)
+#4 E:\Projects\htdocs\thinkframe\app\Models\model_question.php(36): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(68): App\Models\Model_question->addQuestion(Array)
+#6 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->addquestion()
+#7 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#8 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-30 22:45:11 --> Call to undefined method App\Controllers\Getdatainjson::getIdOfLastQuestion()
+#0 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->deletequestion()
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-05-30 23:12:19 --> Unknown column 'option_id' in 'order clause'
+CRITICAL - 2021-05-30 23:12:19 --> Unknown column 'option_id' in 'order clause'
+#0 E:\Projects\htdocs\thinkframe\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT hyps.hyp...')
+#1 E:\Projects\htdocs\thinkframe\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT hyps.hyp...')
+#2 E:\Projects\htdocs\thinkframe\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT hyps.hyp...')
+#3 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(47): CodeIgniter\Database\BaseConnection->query('SELECT hyps.hyp...')
+#4 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->getMaxIds()
+#5 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#6 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-05-30 23:12:24 --> Duplicate entry '1' for key 'PRIMARY'
+CRITICAL - 2021-05-30 23:12:24 --> Duplicate entry '1' for key 'PRIMARY'
+#0 E:\Projects\htdocs\thinkframe\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `op...')
+#1 E:\Projects\htdocs\thinkframe\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `op...')
+#2 E:\Projects\htdocs\thinkframe\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `op...')
+#3 E:\Projects\htdocs\thinkframe\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `op...', Array, false)
+#4 E:\Projects\htdocs\thinkframe\app\Models\model_option.php(38): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(114): App\Models\Model_option->addOption(Array)
+#6 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->addoption()
+#7 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#8 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-05-30 23:13:01 --> Unknown column 'option_id' in 'order clause'
+CRITICAL - 2021-05-30 23:13:01 --> Unknown column 'option_id' in 'order clause'
+#0 E:\Projects\htdocs\thinkframe\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT hyps.hyp...')
+#1 E:\Projects\htdocs\thinkframe\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT hyps.hyp...')
+#2 E:\Projects\htdocs\thinkframe\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT hyps.hyp...')
+#3 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(47): CodeIgniter\Database\BaseConnection->query('SELECT hyps.hyp...')
+#4 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->getMaxIds()
+#5 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#6 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-30 23:32:36 --> Undefined index: option_hyp_id
+#0 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(133): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projects\\htd...', 133, Array)
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->add_option_hyp()
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 23:42:23 --> Trying to get property 'option_id' of non-object
+#0 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\Projects\\htd...', 45, Array)
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->getMaxIds()
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 23:43:39 --> Trying to get property 'option_hyp_id' of non-object
+#0 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\Projects\\htd...', 50, Array)
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->getMaxIds()
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 23:53:18 --> Cannot use object of type stdClass as array
+#0 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(74): App\Models\Model_question->addQuestion(Array)
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->addquestion()
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 23:53:26 --> Cannot use object of type stdClass as array
+#0 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(74): App\Models\Model_question->addQuestion(Array)
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->addquestion()
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-05-30 23:56:08 --> Cannot add or update a child row: a foreign key constraint fails (`thinkframe`.`option_hyp`, CONSTRAINT `option_hyp_ibfk_1` FOREIGN KEY (`option_id`) REFERENCES `options` (`option_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+CRITICAL - 2021-05-30 23:56:08 --> Cannot add or update a child row: a foreign key constraint fails (`thinkframe`.`option_hyp`, CONSTRAINT `option_hyp_ibfk_1` FOREIGN KEY (`option_id`) REFERENCES `options` (`option_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+#0 E:\Projects\htdocs\thinkframe\system\Database\MySQLi\Connection.php(329): mysqli->query('REPLACE INTO `o...')
+#1 E:\Projects\htdocs\thinkframe\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `o...')
+#2 E:\Projects\htdocs\thinkframe\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `o...')
+#3 E:\Projects\htdocs\thinkframe\system\Database\BaseBuilder.php(2368): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `o...', Array, false)
+#4 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(141): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->add_option_hyp()
+#6 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#7 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 23:57:14 --> Cannot use object of type stdClass as array
+#0 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->add_option_hyp()
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-30 23:58:17 --> Cannot use object of type stdClass as array
+#0 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->getMaxIds()
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-30 23:59:42 --> Cannot use object of type stdClass as array
+#0 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->add_option_hyp()
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}

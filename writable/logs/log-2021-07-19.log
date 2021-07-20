@@ -1,0 +1,27 @@
+CRITICAL - 2021-07-19 00:50:42 --> Undefined index: option_hyps
+#0 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(1127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projects\\htd...', 1127, Array)
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->set_zeros_on_blanks()
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-19 00:50:49 --> Undefined index: table_selection
+#0 E:\Projects\htdocs\thinkframe\app\Controllers\Getdatainjson.php(1121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projects\\htd...', 1121, Array)
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->set_zeros_on_blanks()
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-07-19 01:09:11 --> Error connecting to the database: php_network_getaddresses: getaddrinfo failed: No such host is known. 
+CRITICAL - 2021-07-19 01:09:11 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo failed: No such host is known. 
+#0 E:\Projects\htdocs\thinkframe\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\Projects\htdocs\thinkframe\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\Projects\htdocs\thinkframe\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\Projects\htdocs\thinkframe\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 E:\Projects\htdocs\thinkframe\app\Controllers\Thinkframe.php(35): CodeIgniter\BaseModel->findAll()
+#5 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(931): App\Controllers\Thinkframe->questions()
+#6 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Thinkframe))
+#7 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}

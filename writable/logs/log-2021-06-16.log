@@ -1,0 +1,57 @@
+CRITICAL - 2021-06-16 07:50:31 --> Undefined variable: menu
+#0 E:\Projects\htdocs\thinkframe_beanstalk\app\Views\thinkframe\scopes.php(131): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projects\\htd...', 131, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\View\View.php(230): include('E:\\Projects\\htd...')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\Common.php(1250): CodeIgniter\View\View->render('thinkframe/scop...', Array, true)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Thinkframe.php(101): view('thinkframe/scop...')
+#5 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Thinkframe->scopes()
+#6 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Thinkframe))
+#7 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-16 19:48:55 --> syntax error, unexpected ''IS NULL'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/a...')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/a...')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-06-16 19:49:22 --> Unknown column 'option.question_id' in 'on clause'
+CRITICAL - 2021-06-16 19:49:22 --> Unknown column 'option.question_id' in 'on clause'
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(84): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->allquestions()
+#6 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#7 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-16 21:33:20 --> Cannot use object of type stdClass as array
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->update_option_hyp()
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-16 21:34:23 --> You must specify an index to match on for batch updates.
+#0 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(1433): CodeIgniter\Database\BaseBuilder->updateBatch(Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->update_option_hyp()
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-16 21:35:19 --> You must specify an index to match on for batch updates.
+#0 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(1433): CodeIgniter\Database\BaseBuilder->updateBatch(Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->update_option_hyp()
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-16 21:35:50 --> Trying to get property 'option_hyp_id' of non-object
+#0 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(1424): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\Projects\\htd...', 1424, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->update_option_hyp()
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}

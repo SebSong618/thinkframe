@@ -1,0 +1,199 @@
+CRITICAL - 2021-06-10 00:11:11 --> array_multisort(): Array sizes are inconsistent
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_multisort...', 'E:\\Projects\\htd...', 589, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(589): array_multisort(Array, 4, Array)
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->combos()
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#4 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-06-10 00:59:03 --> Duplicate entry '66425' for key 'PRIMARY'
+CRITICAL - 2021-06-10 00:59:03 --> Duplicate entry '66425' for key 'PRIMARY'
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `po...')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(430): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->add_powers_pending()
+#6 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#7 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-10 02:19:17 --> syntax error, unexpected '='
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/g...')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/g...')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-10 02:20:10 --> Illegal string offset 'options'
+#0 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'E:\\Projects\\htd...', 173, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->allhyps()
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-10 02:23:48 --> Undefined index: options
+#0 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(173): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projects\\htd...', 173, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->allhyps()
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-10 02:25:50 --> Illegal string offset 'option_hyp_point'
+#0 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'E:\\Projects\\htd...', 193, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->allhyps()
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-10 03:47:58 --> Division by zero
+#0 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(188): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'E:\\Projects\\htd...', 188, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->allhyps()
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-06-10 04:02:46 --> Unknown column 'option_content' in 'field list'
+CRITICAL - 2021-06-10 04:02:46 --> Unknown column 'option_content' in 'field list'
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\MySQLi\Connection.php(329): mysqli->query('REPLACE INTO `o...')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `o...')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `o...')
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseBuilder.php(2368): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `o...', Array, false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(203): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->allhyps()
+#6 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#7 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-06-10 04:08:42 --> Unknown column 'option_content' in 'field list'
+CRITICAL - 2021-06-10 04:08:42 --> Unknown column 'option_content' in 'field list'
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\MySQLi\Connection.php(329): mysqli->query('REPLACE INTO `o...')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `o...')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `o...')
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseBuilder.php(2368): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `o...', Array, false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(203): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->allhyps()
+#6 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#7 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-06-10 05:49:34 --> Column 'option_id' cannot be null
+CRITICAL - 2021-06-10 05:49:34 --> Column 'option_id' cannot be null
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\MySQLi\Connection.php(329): mysqli->query('REPLACE INTO `o...')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `o...')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `o...')
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseBuilder.php(2368): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `o...', Array, false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(209): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->allhyps()
+#6 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#7 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-10 08:13:20 --> Undefined offset: 14
+#0 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(219): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\Projects\\htd...', 219, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->allhyps()
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-10 08:17:05 --> syntax error, unexpected '}'
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/g...')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/g...')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-10 08:17:20 --> syntax error, unexpected '}'
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/g...')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/g...')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-10 19:01:09 --> Undefined variable: scope_id
+#0 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(716): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projects\\htd...', 716, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->delete_scope()
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-10 19:02:03 --> Trying to get property 'scope_id' of non-object
+#0 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(722): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\Projects\\htd...', 722, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->delete_scope()
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-10 19:04:03 --> Trying to get property 'scope_id' of non-object
+#0 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(722): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\Projects\\htd...', 722, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->delete_scope()
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-10 19:51:26 --> Undefined variable: scopes
+#0 E:\Projects\htdocs\thinkframe_beanstalk\app\Views\thinkframe\hyps.php(204): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projects\\htd...', 204, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\View\View.php(230): include('E:\\Projects\\htd...')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\Common.php(1250): CodeIgniter\View\View->render('thinkframe/hyps', Array, true)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Thinkframe.php(35): view('thinkframe/hyps', Array)
+#5 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Thinkframe->hyps()
+#6 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Thinkframe))
+#7 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-10 19:52:26 --> Undefined variable: scopes
+#0 E:\Projects\htdocs\thinkframe_beanstalk\app\Views\thinkframe\hyps.php(204): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projects\\htd...', 204, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\View\View.php(230): include('E:\\Projects\\htd...')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\Common.php(1250): CodeIgniter\View\View->render('thinkframe/hyps', Array, true)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Thinkframe.php(36): view('thinkframe/hyps', Array)
+#5 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Thinkframe->hyps()
+#6 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Thinkframe))
+#7 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-10 19:52:30 --> Undefined variable: scopes
+#0 E:\Projects\htdocs\thinkframe_beanstalk\app\Views\thinkframe\hyps.php(204): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projects\\htd...', 204, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\View\View.php(230): include('E:\\Projects\\htd...')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\Common.php(1250): CodeIgniter\View\View->render('thinkframe/hyps', Array, true)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Thinkframe.php(36): view('thinkframe/hyps', Array)
+#5 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Thinkframe->hyps()
+#6 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Thinkframe))
+#7 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-10 19:52:50 --> Undefined variable: scopes
+#0 E:\Projects\htdocs\thinkframe_beanstalk\app\Views\thinkframe\hyps.php(204): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projects\\htd...', 204, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\View\View.php(230): include('E:\\Projects\\htd...')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\Common.php(1250): CodeIgniter\View\View->render('thinkframe/hyps', Array, true)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Thinkframe.php(36): view('thinkframe/hyps', Array)
+#5 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Thinkframe->hyps()
+#6 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Thinkframe))
+#7 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-10 20:00:53 --> Trying to get property 'scope_id' of non-object
+#0 E:\Projects\htdocs\thinkframe_beanstalk\app\Views\thinkframe\hyps.php(209): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\Projects\\htd...', 209, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\View\View.php(230): include('E:\\Projects\\htd...')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\Common.php(1250): CodeIgniter\View\View->render('thinkframe/hyps', Array, true)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Thinkframe.php(39): view('thinkframe/hyps', Array)
+#5 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Thinkframe->hyps()
+#6 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Thinkframe))
+#7 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-10 21:34:08 --> Undefined variable: scopes
+#0 E:\Projects\htdocs\thinkframe_beanstalk\app\Views\thinkframe\advices.php(224): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projects\\htd...', 224, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\View\View.php(230): include('E:\\Projects\\htd...')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\Common.php(1250): CodeIgniter\View\View->render('thinkframe/advi...', Array, true)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Thinkframe.php(70): view('thinkframe/advi...')
+#5 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Thinkframe->advices()
+#6 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Thinkframe))
+#7 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}

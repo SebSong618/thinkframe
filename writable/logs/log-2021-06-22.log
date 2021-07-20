@@ -1,0 +1,268 @@
+CRITICAL - 2021-06-22 01:44:34 --> Undefined variable: db
+#0 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projects\\htd...', 127, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->allquestions_()
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-22 01:45:04 --> Undefined variable: rs
+#0 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(145): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projects\\htd...', 145, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->allquestions_()
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-22 03:47:06 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::getContent()
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->advices()
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-22 03:50:42 --> Undefined index: scope_slug
+#0 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(1166): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projects\\htd...', 1166, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->advices()
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-22 03:55:38 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'E:\\Projects\\htd...', 1165, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(1165): json_decode(Array)
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->advices()
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#4 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-22 06:12:10 --> There is no data to update.
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\BaseModel.php(1668): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\BaseModel.php(880): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\Model.php(718): CodeIgniter\BaseModel->update(Array, NULL)
+#3 E:\Projects\htdocs\thinkframe_beanstalk\app\Models\AuthModel.php(162): CodeIgniter\Model->update(Array)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\app\Libraries\AuthLibrary.php(795): App\Models\AuthModel->UpdateSelector(Array, '40776ca8af9f')
+#5 E:\Projects\htdocs\thinkframe_beanstalk\app\Libraries\AuthLibrary.php(748): App\libraries\AuthLibrary->rememberMeReset('1', '40776ca8af9f')
+#6 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Auth.php(57): App\libraries\AuthLibrary->checkCookie()
+#7 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Auth->login()
+#8 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-06-22 06:12:10 --> There is no data to update.
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\BaseModel.php(1668): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\BaseModel.php(880): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\Model.php(718): CodeIgniter\BaseModel->update(Array, NULL)
+#3 E:\Projects\htdocs\thinkframe_beanstalk\app\Models\AuthModel.php(162): CodeIgniter\Model->update(Array)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\app\Libraries\AuthLibrary.php(795): App\Models\AuthModel->UpdateSelector(Array, '40776ca8af9f')
+#5 E:\Projects\htdocs\thinkframe_beanstalk\app\Libraries\AuthLibrary.php(748): App\libraries\AuthLibrary->rememberMeReset('1', '40776ca8af9f')
+#6 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Auth.php(57): App\libraries\AuthLibrary->checkCookie()
+#7 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Auth->login()
+#8 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-06-22 06:12:18 --> There is no data to update.
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\BaseModel.php(1668): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\BaseModel.php(880): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\Model.php(718): CodeIgniter\BaseModel->update(Array, NULL)
+#3 E:\Projects\htdocs\thinkframe_beanstalk\app\Models\AuthModel.php(162): CodeIgniter\Model->update(Array)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\app\Libraries\AuthLibrary.php(795): App\Models\AuthModel->UpdateSelector(Array, '40776ca8af9f')
+#5 E:\Projects\htdocs\thinkframe_beanstalk\app\Libraries\AuthLibrary.php(748): App\libraries\AuthLibrary->rememberMeReset('1', '40776ca8af9f')
+#6 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Auth.php(57): App\libraries\AuthLibrary->checkCookie()
+#7 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Auth->login()
+#8 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-06-22 06:12:29 --> There is no data to update.
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\BaseModel.php(1668): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\BaseModel.php(880): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\Model.php(718): CodeIgniter\BaseModel->update(Array, NULL)
+#3 E:\Projects\htdocs\thinkframe_beanstalk\app\Models\AuthModel.php(162): CodeIgniter\Model->update(Array)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\app\Libraries\AuthLibrary.php(795): App\Models\AuthModel->UpdateSelector(Array, '40776ca8af9f')
+#5 E:\Projects\htdocs\thinkframe_beanstalk\app\Libraries\AuthLibrary.php(748): App\libraries\AuthLibrary->rememberMeReset('1', '40776ca8af9f')
+#6 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Auth.php(57): App\libraries\AuthLibrary->checkCookie()
+#7 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Auth->login()
+#8 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-06-22 17:34:22 --> There is no data to update.
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\BaseModel.php(1668): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\BaseModel.php(880): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\Model.php(718): CodeIgniter\BaseModel->update(Array, NULL)
+#3 E:\Projects\htdocs\thinkframe_beanstalk\app\Models\AuthModel.php(162): CodeIgniter\Model->update(Array)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\app\Libraries\AuthLibrary.php(795): App\Models\AuthModel->UpdateSelector(Array, '40776ca8af9f')
+#5 E:\Projects\htdocs\thinkframe_beanstalk\app\Libraries\AuthLibrary.php(748): App\libraries\AuthLibrary->rememberMeReset('1', '40776ca8af9f')
+#6 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Auth.php(57): App\libraries\AuthLibrary->checkCookie()
+#7 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Auth->login()
+#8 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-06-22 17:34:34 --> There is no data to update.
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\BaseModel.php(1668): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\BaseModel.php(880): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\Model.php(718): CodeIgniter\BaseModel->update(Array, NULL)
+#3 E:\Projects\htdocs\thinkframe_beanstalk\app\Models\AuthModel.php(162): CodeIgniter\Model->update(Array)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\app\Libraries\AuthLibrary.php(795): App\Models\AuthModel->UpdateSelector(Array, '40776ca8af9f')
+#5 E:\Projects\htdocs\thinkframe_beanstalk\app\Libraries\AuthLibrary.php(748): App\libraries\AuthLibrary->rememberMeReset('1', '40776ca8af9f')
+#6 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Auth.php(57): App\libraries\AuthLibrary->checkCookie()
+#7 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Auth->login()
+#8 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-06-22 17:34:38 --> There is no data to update.
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\BaseModel.php(1668): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\BaseModel.php(880): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\Model.php(718): CodeIgniter\BaseModel->update(Array, NULL)
+#3 E:\Projects\htdocs\thinkframe_beanstalk\app\Models\AuthModel.php(162): CodeIgniter\Model->update(Array)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\app\Libraries\AuthLibrary.php(795): App\Models\AuthModel->UpdateSelector(Array, '40776ca8af9f')
+#5 E:\Projects\htdocs\thinkframe_beanstalk\app\Libraries\AuthLibrary.php(748): App\libraries\AuthLibrary->rememberMeReset('1', '40776ca8af9f')
+#6 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Auth.php(57): App\libraries\AuthLibrary->checkCookie()
+#7 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Auth->login()
+#8 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-06-22 17:34:46 --> There is no data to update.
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\BaseModel.php(1668): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\BaseModel.php(880): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\Model.php(718): CodeIgniter\BaseModel->update(Array, NULL)
+#3 E:\Projects\htdocs\thinkframe_beanstalk\app\Models\AuthModel.php(162): CodeIgniter\Model->update(Array)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\app\Libraries\AuthLibrary.php(795): App\Models\AuthModel->UpdateSelector(Array, '40776ca8af9f')
+#5 E:\Projects\htdocs\thinkframe_beanstalk\app\Libraries\AuthLibrary.php(748): App\libraries\AuthLibrary->rememberMeReset('1', '40776ca8af9f')
+#6 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Auth.php(57): App\libraries\AuthLibrary->checkCookie()
+#7 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Auth->login()
+#8 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-06-22 17:34:47 --> There is no data to update.
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\BaseModel.php(1668): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\BaseModel.php(880): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\Model.php(718): CodeIgniter\BaseModel->update(Array, NULL)
+#3 E:\Projects\htdocs\thinkframe_beanstalk\app\Models\AuthModel.php(162): CodeIgniter\Model->update(Array)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\app\Libraries\AuthLibrary.php(795): App\Models\AuthModel->UpdateSelector(Array, '40776ca8af9f')
+#5 E:\Projects\htdocs\thinkframe_beanstalk\app\Libraries\AuthLibrary.php(748): App\libraries\AuthLibrary->rememberMeReset('1', '40776ca8af9f')
+#6 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Auth.php(57): App\libraries\AuthLibrary->checkCookie()
+#7 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Auth->login()
+#8 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-06-22 18:54:50 --> Undefined index: scope_slug
+#0 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projects\\htd...', 16, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->test()
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-22 18:54:59 --> Undefined index: scope_slug
+#0 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projects\\htd...', 16, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->test()
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-22 18:55:07 --> Undefined index: scope_slug
+#0 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projects\\htd...', 16, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->test()
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-22 18:55:45 --> Undefined index: scope_slug
+#0 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projects\\htd...', 16, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->test()
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-22 18:57:16 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'E:\\Projects\\htd...', 16, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(16): json_decode(Array, true)
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->test()
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#4 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-22 18:57:22 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'E:\\Projects\\htd...', 16, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(16): json_decode(Array, true)
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->test()
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#4 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-22 18:57:40 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'E:\\Projects\\htd...', 16, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(16): json_decode(Array)
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->test()
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#4 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-22 18:59:58 --> Array to string conversion
+#0 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'E:\\Projects\\htd...', 16, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->test()
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-22 19:00:02 --> Array to string conversion
+#0 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'E:\\Projects\\htd...', 16, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->test()
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-22 19:00:49 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'E:\\Projects\\htd...', 16, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(16): json_decode(Array)
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->test()
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#4 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-22 20:20:04 --> There is no data to update.
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\BaseModel.php(1668): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\BaseModel.php(880): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\Model.php(718): CodeIgniter\BaseModel->update(Array, NULL)
+#3 E:\Projects\htdocs\thinkframe_beanstalk\app\Models\AuthModel.php(162): CodeIgniter\Model->update(Array)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\app\Libraries\AuthLibrary.php(795): App\Models\AuthModel->UpdateSelector(Array, '80b111bc64a4')
+#5 E:\Projects\htdocs\thinkframe_beanstalk\app\Libraries\AuthLibrary.php(748): App\libraries\AuthLibrary->rememberMeReset('1', '80b111bc64a4')
+#6 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Auth.php(57): App\libraries\AuthLibrary->checkCookie()
+#7 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Auth->login()
+#8 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-06-22 23:26:05 --> Undefined variable: post
+#0 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projects\\htd...', 17, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->save_input()
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-22 23:26:26 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'E:\\Projects\\htd...', 17, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(17): json_decode(Array)
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->save_input()
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#4 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-22 23:26:46 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'E:\\Projects\\htd...', 17, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(17): json_decode(Array, true)
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->save_input()
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#4 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-22 23:46:46 --> Call to undefined function App\Controllers\mdate()
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->save_input()
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}

@@ -1,0 +1,64 @@
+CRITICAL - 2021-06-03 00:49:05 --> syntax error, unexpected 'var' (T_VAR), expecting ';'
+#0 E:\Projects\htdocs\thinkframe\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/q...')
+#1 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/q...')
+#2 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 E:\Projects\htdocs\thinkframe\system\Commands\Server\rewrite.php(45): require_once('E:\\Projects\\htd...')
+#6 {main}
+ERROR - 2021-06-03 22:33:36 --> Error connecting to the database: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+CRITICAL - 2021-06-03 22:33:36 --> Unable to connect to the database.
+Main connection [MySQLi]: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT MAX(`que...', Array, false)
+#2 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(109): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->getMaxIds()
+#4 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#5 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 E:\Projects\htdocs\thinkframe_beanstalk\system\Commands\Server\rewrite.php(45): require_once('E:\\Projects\\htd...')
+#8 {main}
+ERROR - 2021-06-03 22:33:46 --> Error connecting to the database: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+CRITICAL - 2021-06-03 22:33:46 --> Unable to connect to the database.
+Main connection [MySQLi]: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `q`.*, `...', Array, false)
+#2 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(25): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->allquestions()
+#4 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#5 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 E:\Projects\htdocs\thinkframe_beanstalk\system\Commands\Server\rewrite.php(45): require_once('E:\\Projects\\htd...')
+#8 {main}
+ERROR - 2021-06-03 22:33:58 --> Error connecting to the database: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+CRITICAL - 2021-06-03 22:33:58 --> Unable to connect to the database.
+Main connection [MySQLi]: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT MAX(`que...', Array, false)
+#2 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(109): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->getMaxIds()
+#4 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#5 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 E:\Projects\htdocs\thinkframe_beanstalk\system\Commands\Server\rewrite.php(45): require_once('E:\\Projects\\htd...')
+#8 {main}
+ERROR - 2021-06-03 22:34:08 --> Error connecting to the database: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+CRITICAL - 2021-06-03 22:34:08 --> Unable to connect to the database.
+Main connection [MySQLi]: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `q`.*, `...', Array, false)
+#2 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(25): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->allquestions()
+#4 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#5 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 E:\Projects\htdocs\thinkframe_beanstalk\system\Commands\Server\rewrite.php(45): require_once('E:\\Projects\\htd...')
+#8 {main}

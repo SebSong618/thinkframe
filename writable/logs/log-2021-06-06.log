@@ -1,0 +1,44 @@
+CRITICAL - 2021-06-06 23:11:46 --> syntax error, unexpected 'exit' (T_EXIT), expecting ',' or ';'
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/g...')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/g...')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-06 23:11:52 --> syntax error, unexpected 'exit' (T_EXIT), expecting ',' or ';'
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/g...')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/g...')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-06 23:13:03 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'E:\\Projects\\htd...', 289, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(289): count('[{"hyp_id":5,"q...')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->add_links_pending()
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#4 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-06 23:14:24 --> Array to string conversion
+#0 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(289): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'E:\\Projects\\htd...', 289, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->add_links_pending()
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-06 23:14:35 --> Array to string conversion
+#0 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(289): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'E:\\Projects\\htd...', 289, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->add_links_pending()
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-06 23:15:28 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'E:\\Projects\\htd...', 290, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(290): count(Object(stdClass))
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->add_links_pending()
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#4 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}

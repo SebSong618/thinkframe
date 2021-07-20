@@ -1,0 +1,280 @@
+CRITICAL - 2021-06-29 00:55:33 --> Undefined index: question_id
+#0 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(317): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projects\\htd...', 317, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->allhyps()
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-29 01:00:12 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'E:\\Projects\\htd...', 313, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(313): json_decode(Array)
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->allhyps()
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#4 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-29 01:01:32 --> Call to undefined function App\Controllers\array_value()
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->allhyps()
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-29 01:21:17 --> syntax error, unexpected 'foreach' (T_FOREACH)
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/g...')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/g...')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-29 01:28:42 --> Undefined index: options
+#0 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(459): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projects\\htd...', 459, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->allhyps()
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-29 01:34:18 --> Illegal string offset 'option_hyp_point'
+#0 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(461): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'E:\\Projects\\htd...', 461, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->allhyps()
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-29 01:36:33 --> array_multisort(): Array sizes are inconsistent
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_multisort...', 'E:\\Projects\\htd...', 464, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(464): array_multisort(Array, 3, Array)
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->allhyps()
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#4 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-29 01:36:54 --> array_multisort(): Array sizes are inconsistent
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_multisort...', 'E:\\Projects\\htd...', 464, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(464): array_multisort(Array, 3, Array)
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->allhyps()
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#4 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-29 02:02:14 --> updateBatch() called with no data
+#0 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(1999): CodeIgniter\Database\BaseBuilder->updateBatch(Array, 'option_hyp_id')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->update_option_hyp()
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-29 02:36:56 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::num_rows()
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->update_powers()
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-06-29 02:41:14 --> Duplicate entry '192898' for key 'PRIMARY'
+CRITICAL - 2021-06-29 02:41:14 --> Duplicate entry '192898' for key 'PRIMARY'
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\MySQLi\Connection.php(329): mysqli->query('UPDATE `powers`...')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `powers`...')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `powers`...')
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseBuilder.php(2482): CodeIgniter\Database\BaseConnection->query('UPDATE `powers`...', Array, false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(2036): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->update_powers()
+#6 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#7 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-06-29 02:41:35 --> Duplicate entry '169365' for key 'PRIMARY'
+CRITICAL - 2021-06-29 02:41:35 --> Duplicate entry '169365' for key 'PRIMARY'
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\MySQLi\Connection.php(329): mysqli->query('UPDATE `powers`...')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `powers`...')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `powers`...')
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseBuilder.php(2482): CodeIgniter\Database\BaseConnection->query('UPDATE `powers`...', Array, false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(2036): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->update_powers()
+#6 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#7 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-06-29 02:44:54 --> Duplicate entry '127434' for key 'PRIMARY'
+CRITICAL - 2021-06-29 02:44:54 --> Duplicate entry '127434' for key 'PRIMARY'
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\MySQLi\Connection.php(329): mysqli->query('UPDATE `powers`...')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `powers`...')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `powers`...')
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseBuilder.php(2482): CodeIgniter\Database\BaseConnection->query('UPDATE `powers`...', Array, false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(2036): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->update_powers()
+#6 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#7 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-06-29 02:45:30 --> Duplicate entry '154504' for key 'PRIMARY'
+CRITICAL - 2021-06-29 02:45:30 --> Duplicate entry '154504' for key 'PRIMARY'
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\MySQLi\Connection.php(329): mysqli->query('UPDATE `powers`...')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `powers`...')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `powers`...')
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseBuilder.php(2482): CodeIgniter\Database\BaseConnection->query('UPDATE `powers`...', Array, false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(2036): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->update_powers()
+#6 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#7 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-06-29 02:47:19 --> Duplicate entry '155620' for key 'PRIMARY'
+CRITICAL - 2021-06-29 02:47:19 --> Duplicate entry '155620' for key 'PRIMARY'
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\MySQLi\Connection.php(329): mysqli->query('UPDATE `powers`...')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `powers`...')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `powers`...')
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseBuilder.php(2482): CodeIgniter\Database\BaseConnection->query('UPDATE `powers`...', Array, false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(2036): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->update_powers()
+#6 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#7 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-06-29 02:47:20 --> Duplicate entry '155620' for key 'PRIMARY'
+CRITICAL - 2021-06-29 02:47:20 --> Duplicate entry '155620' for key 'PRIMARY'
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\MySQLi\Connection.php(329): mysqli->query('UPDATE `powers`...')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `powers`...')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `powers`...')
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseBuilder.php(2482): CodeIgniter\Database\BaseConnection->query('UPDATE `powers`...', Array, false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(2036): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->update_powers()
+#6 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#7 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-06-29 02:47:21 --> Duplicate entry '155620' for key 'PRIMARY'
+CRITICAL - 2021-06-29 02:47:21 --> Duplicate entry '155620' for key 'PRIMARY'
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\MySQLi\Connection.php(329): mysqli->query('UPDATE `powers`...')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `powers`...')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `powers`...')
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseBuilder.php(2482): CodeIgniter\Database\BaseConnection->query('UPDATE `powers`...', Array, false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(2036): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->update_powers()
+#6 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#7 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-06-29 02:47:21 --> Duplicate entry '155620' for key 'PRIMARY'
+CRITICAL - 2021-06-29 02:47:21 --> Duplicate entry '155620' for key 'PRIMARY'
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\MySQLi\Connection.php(329): mysqli->query('UPDATE `powers`...')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `powers`...')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `powers`...')
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseBuilder.php(2482): CodeIgniter\Database\BaseConnection->query('UPDATE `powers`...', Array, false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(2036): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->update_powers()
+#6 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#7 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-06-29 02:47:22 --> Duplicate entry '155620' for key 'PRIMARY'
+CRITICAL - 2021-06-29 02:47:22 --> Duplicate entry '155620' for key 'PRIMARY'
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\MySQLi\Connection.php(329): mysqli->query('UPDATE `powers`...')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `powers`...')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `powers`...')
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseBuilder.php(2482): CodeIgniter\Database\BaseConnection->query('UPDATE `powers`...', Array, false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(2036): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->update_powers()
+#6 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#7 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-06-29 02:47:22 --> Duplicate entry '155620' for key 'PRIMARY'
+CRITICAL - 2021-06-29 02:47:22 --> Duplicate entry '155620' for key 'PRIMARY'
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\MySQLi\Connection.php(329): mysqli->query('UPDATE `powers`...')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `powers`...')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `powers`...')
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseBuilder.php(2482): CodeIgniter\Database\BaseConnection->query('UPDATE `powers`...', Array, false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(2036): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->update_powers()
+#6 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#7 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-06-29 02:47:22 --> Duplicate entry '155620' for key 'PRIMARY'
+CRITICAL - 2021-06-29 02:47:22 --> Duplicate entry '155620' for key 'PRIMARY'
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\MySQLi\Connection.php(329): mysqli->query('UPDATE `powers`...')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `powers`...')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `powers`...')
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseBuilder.php(2482): CodeIgniter\Database\BaseConnection->query('UPDATE `powers`...', Array, false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(2036): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->update_powers()
+#6 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#7 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-06-29 02:47:22 --> Duplicate entry '155620' for key 'PRIMARY'
+CRITICAL - 2021-06-29 02:47:22 --> Duplicate entry '155620' for key 'PRIMARY'
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\MySQLi\Connection.php(329): mysqli->query('UPDATE `powers`...')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `powers`...')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `powers`...')
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseBuilder.php(2482): CodeIgniter\Database\BaseConnection->query('UPDATE `powers`...', Array, false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(2036): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->update_powers()
+#6 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#7 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-06-29 02:50:20 --> Duplicate entry '149009' for key 'PRIMARY'
+CRITICAL - 2021-06-29 02:50:20 --> Duplicate entry '149009' for key 'PRIMARY'
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\MySQLi\Connection.php(329): mysqli->query('UPDATE `powers`...')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `powers`...')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `powers`...')
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseBuilder.php(2482): CodeIgniter\Database\BaseConnection->query('UPDATE `powers`...', Array, false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(2036): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->update_powers()
+#6 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#7 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-06-29 03:00:27 --> Duplicate entry '153385' for key 'PRIMARY'
+CRITICAL - 2021-06-29 03:00:27 --> Duplicate entry '153385' for key 'PRIMARY'
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\MySQLi\Connection.php(329): mysqli->query('UPDATE `powers`...')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `powers`...')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `powers`...')
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\Database\BaseBuilder.php(2482): CodeIgniter\Database\BaseConnection->query('UPDATE `powers`...', Array, false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(2036): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->update_powers()
+#6 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#7 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-29 03:04:41 --> syntax error, unexpected 'else' (T_ELSE)
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/c...')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/c...')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-29 03:04:41 --> syntax error, unexpected 'else' (T_ELSE)
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('getdatainjson/c...')
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('getdatainjson/c...')
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-29 03:06:55 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getNumRows()
+#0 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->update_powers()
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-29 06:15:43 --> Undefined index: hyp_id
+#0 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(2105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projects\\htd...', 2105, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->update_combo_hyp_powers()
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-29 06:22:52 --> Undefined index: hyp_id
+#0 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(2105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projects\\htd...', 2105, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->update_combo_hyp_powers()
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-29 06:33:39 --> Undefined index: normalization_array
+#0 E:\Projects\htdocs\thinkframe_beanstalk\app\Controllers\Getdatainjson.php(2064): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projects\\htd...', 2064, Array)
+#1 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(931): App\Controllers\Getdatainjson->update_combo_hyp_powers()
+#2 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Getdatainjson))
+#3 E:\Projects\htdocs\thinkframe_beanstalk\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projects\htdocs\thinkframe_beanstalk\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
