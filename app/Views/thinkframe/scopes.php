@@ -831,7 +831,6 @@
             <!--begin::Card body-->
             <div class="card-body pt-0">
                 <div class="column-names">
-                    Test
                     <span class="column-name">LONG NAME</span>
                     <span class="column-name">URL</span>
                     <span class="column-name">QUIZ LINK</span>
